@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 
 # Reemplaza con el token que obtuviste de BotFather
 TOKEN = ""
-CHAT_ID = ''  # Usa el chat ID obtenido
+CHAT_ID =  # Usa el chat ID obtenido
 
 # Comando /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
